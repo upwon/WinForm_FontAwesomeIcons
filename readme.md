@@ -1,4 +1,16 @@
-# image_bed
+# [WinForm_FontAwesomeIcons](https://github.com/upwon/WinForm_FontAwesomeIcons)
+
+
+
+![](https://gitee.com/wang_wx/image_bed/raw/master/2020/ShareX_20200502_214031___%pn.gif)
+
+
+
+![](https://gitee.com/wang_wx/image_bed/raw/master/2020/20200502214156.png)
+
+
+
+
 
 ##  [中文看这里](##中文)
 
@@ -6,7 +18,7 @@
 
 Refer to this [video](https://youtu.be/K2lgEPdhGcg) to complete the simple Program, just an interface of WinForm, flat  design, without any other functions,  can be used as a template to develop some simple Forms.  The icon uses [FontAwesome.Sharp](  https://github.com/awesome-inc/FontAwesome.Sharp) . For more information, please visit my blog
 
-https://upwon.github.io/
+[https://upwon.github.io/](https://upwon.github.io/)
 
 
 
@@ -46,11 +58,19 @@ It is just a WinForm interface.
 
 ## 中文
 
+![](https://gitee.com/wang_wx/image_bed/raw/master/2020/ShareX_20200502_214031___%pn.gif)
+
+
+
+![](https://gitee.com/wang_wx/image_bed/raw/master/2020/20200502214156.png)
+
+
+
 ### 介绍 [English](##Description)  
 
 参考视频 [https://youtu.be/K2lgEPdhGcg](https://youtu.be/K2lgEPdhGcg) 完成的一个小程序，仅仅是一个界面，扁平化设计，没有任何其它功能，可作为开发一些简单窗体的模板。图标使用的是 [FontAwesome.Sharp](  https://github.com/awesome-inc/FontAwesome.Sharp) 。更多资讯请访问我的博客查阅
 
-https://upwon.github.io/
+[https://upwon.github.io/](https://upwon.github.io/)
 
 ### 软件架构
 
