@@ -360,7 +360,7 @@
             // 
             this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBox1.Image = global::WinForm_FontAwesomeIcons.Properties.Resources.summer;
-            this.pictureBox1.Location = new System.Drawing.Point(199, 164);
+            this.pictureBox1.Location = new System.Drawing.Point(214, 185);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(382, 141);
             this.pictureBox1.TabIndex = 1;
