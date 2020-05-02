@@ -58,6 +58,12 @@
     <Compile Include="AboutBox1.Designer.cs">
       <DependentUpon>AboutBox1.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormBlog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormBlog.Designer.cs">
+      <DependentUpon>FormBlog.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormGoogle.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -80,6 +86,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="AboutBox1.resx">
       <DependentUpon>AboutBox1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormBlog.resx">
+      <DependentUpon>FormBlog.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormGoogle.resx">
       <DependentUpon>FormGoogle.cs</DependentUpon>
