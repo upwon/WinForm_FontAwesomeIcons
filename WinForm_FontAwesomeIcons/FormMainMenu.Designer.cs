@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.panelMenu = new System.Windows.Forms.Panel();
+            this.iconButton1 = new FontAwesome.Sharp.IconButton();
             this.iconBtnWindows = new FontAwesome.Sharp.IconButton();
             this.iconBtnWeibo = new FontAwesome.Sharp.IconButton();
             this.iconBtnBloger = new FontAwesome.Sharp.IconButton();
@@ -45,6 +46,7 @@
             this.lblChildForm = new System.Windows.Forms.Label();
             this.iconCurrentChildForm = new FontAwesome.Sharp.IconPictureBox();
             this.panelDesktop = new System.Windows.Forms.Panel();
+            this.iconButtonHelp = new FontAwesome.Sharp.IconButton();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panelMenu.SuspendLayout();
             this.panelLogo.SuspendLayout();
@@ -58,6 +60,7 @@
             // panelMenu
             // 
             this.panelMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(120)))), ((int)(((byte)(181)))));
+            this.panelMenu.Controls.Add(this.iconButton1);
             this.panelMenu.Controls.Add(this.iconBtnWindows);
             this.panelMenu.Controls.Add(this.iconBtnWeibo);
             this.panelMenu.Controls.Add(this.iconBtnBloger);
@@ -72,6 +75,28 @@
             this.panelMenu.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
             this.panelMenu.Size = new System.Drawing.Size(200, 631);
             this.panelMenu.TabIndex = 1;
+            // 
+            // iconButton1
+            // 
+            this.iconButton1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.iconButton1.FlatAppearance.BorderSize = 0;
+            this.iconButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButton1.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.iconButton1.Font = new System.Drawing.Font("思源黑体 Regular", 10.8F);
+            this.iconButton1.ForeColor = System.Drawing.Color.Transparent;
+            this.iconButton1.IconChar = FontAwesome.Sharp.IconChar.GooglePlay;
+            this.iconButton1.IconColor = System.Drawing.Color.White;
+            this.iconButton1.IconSize = 48;
+            this.iconButton1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconButton1.Location = new System.Drawing.Point(10, 560);
+            this.iconButton1.Name = "iconButton1";
+            this.iconButton1.Rotation = 0D;
+            this.iconButton1.Size = new System.Drawing.Size(170, 60);
+            this.iconButton1.TabIndex = 8;
+            this.iconButton1.Text = "测试";
+            this.iconButton1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconButton1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.iconButton1.UseVisualStyleBackColor = true;
             // 
             // iconBtnWindows
             // 
@@ -348,6 +373,7 @@
             // panelDesktop
             // 
             this.panelDesktop.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(120)))), ((int)(((byte)(181)))));
+            this.panelDesktop.Controls.Add(this.iconButtonHelp);
             this.panelDesktop.Controls.Add(this.pictureBox1);
             this.panelDesktop.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelDesktop.Location = new System.Drawing.Point(200, 75);
@@ -355,6 +381,28 @@
             this.panelDesktop.Size = new System.Drawing.Size(857, 556);
             this.panelDesktop.TabIndex = 3;
             this.panelDesktop.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelDesktop_MouseDown);
+            // 
+            // iconButtonHelp
+            // 
+            this.iconButtonHelp.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.iconButtonHelp.FlatAppearance.BorderSize = 0;
+            this.iconButtonHelp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButtonHelp.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.iconButtonHelp.Font = new System.Drawing.Font("思源黑体 Regular", 10.8F);
+            this.iconButtonHelp.ForeColor = System.Drawing.Color.Transparent;
+            this.iconButtonHelp.IconChar = FontAwesome.Sharp.IconChar.QuestionCircle;
+            this.iconButtonHelp.IconColor = System.Drawing.Color.White;
+            this.iconButtonHelp.IconSize = 48;
+            this.iconButtonHelp.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconButtonHelp.Location = new System.Drawing.Point(803, 505);
+            this.iconButtonHelp.Name = "iconButtonHelp";
+            this.iconButtonHelp.Rotation = 0D;
+            this.iconButtonHelp.Size = new System.Drawing.Size(51, 51);
+            this.iconButtonHelp.TabIndex = 3;
+            this.iconButtonHelp.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconButtonHelp.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.iconButtonHelp.UseVisualStyleBackColor = true;
+            this.iconButtonHelp.Click += new System.EventHandler(this.iconButtonHelp_Click);
             // 
             // pictureBox1
             // 
@@ -411,6 +459,8 @@
         private FontAwesome.Sharp.IconButton iconButtonExit;
         private FontAwesome.Sharp.IconButton iconButtonMax;
         private FontAwesome.Sharp.IconButton iconButtonMin;
+        private FontAwesome.Sharp.IconButton iconButton1;
+        private FontAwesome.Sharp.IconButton iconButtonHelp;
     }
 }
 

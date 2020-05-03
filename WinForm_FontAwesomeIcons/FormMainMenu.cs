@@ -224,5 +224,39 @@ namespace WinForm_FontAwesomeIcons
             ReleaseCapture();
             SendMessage(this.Handle, 0x112, 0xf012, 0);
         }
+
+        private void iconButtonHelp_Click(object sender, EventArgs e)
+        {
+            Form formBackgroud=new Form();
+            try
+            {
+                using (Form_About uu = new Form_About())
+                {
+                    formBackgroud.StartPosition = FormStartPosition.CenterScreen;
+                    formBackgroud.FormBorderStyle = FormBorderStyle.None;
+                    formBackgroud.Opacity = .50d;
+                    formBackgroud.BackColor = Color.FromArgb(37, 120, 181);
+                    formBackgroud.WindowState = FormWindowState.Maximized;
+                  //  formBackgroud.TopMost = true;
+
+                    formBackgroud.Show();
+
+                    uu.Owner = formBackgroud;
+                    uu.ShowDialog();
+                    formBackgroud.Dispose();
+
+                }
+            }
+            catch (Exception exception)
+            {
+                MessageBox.Show(exception.Message);
+                // Console.WriteLine(exception);
+                // throw;
+            }
+            finally
+            {
+                formBackgroud.Dispose();
+            }
+        }
     }
 }

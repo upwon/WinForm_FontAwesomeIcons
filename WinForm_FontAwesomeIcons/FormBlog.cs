@@ -119,5 +119,19 @@ namespace WinForm_FontAwesomeIcons
             browser.ShowDevTools();
         }
 
+        private void backButton_Click(object sender, EventArgs e)
+        {
+            browser.Back();
+        }
+
+        private void forwardButton_Click(object sender, EventArgs e)
+        {
+            browser.Forward();
+        }
+
+        private void iconButtonGo_Click(object sender, EventArgs e)
+        {
+            LoadUrl(textBoxURL.Text);
+        }
     }
 }
