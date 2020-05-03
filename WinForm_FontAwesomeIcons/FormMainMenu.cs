@@ -139,7 +139,7 @@ namespace WinForm_FontAwesomeIcons
         private void iconBtnBloger_Click(object sender, EventArgs e)
         {
             ActiveButton(sender, RGBcolors.color5);
-            OpenChildForm(new FormGoogle());
+            OpenChildForm(new FormBlog());
 
         }
 
