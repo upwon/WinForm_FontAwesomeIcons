@@ -53,9 +53,13 @@ namespace WinForm_FontAwesomeIcons
             // SoundPlayer spPlayer=new SoundPlayer();
             //  spPlayer.SoundLocation = listSongs[listBoxMusic.SelectedIndex];
             // spPlayer.Play();
-            PlayThread(listSongs[listBoxMusic.SelectedIndex]);
+        //    PlayThread(listSongs[listBoxMusic.SelectedIndex]);
             //   Thread thread = new Thread(() => PlayThread(listSongs[listBoxMusic.SelectedIndex]));
             //   thread.Start();
+            string path = listSongs[listBoxMusic.SelectedIndex];
+            Thread thread = new Thread(() => PlayThread(path));
+            thread.Start();
+
         }
 
         private void axWindowsMediaPlayer1_PlayStateChange(object sender, AxWMPLib._WMPOCXEvents_PlayStateChangeEvent e)
@@ -86,7 +90,7 @@ namespace WinForm_FontAwesomeIcons
             {
                 index = 0;
             }
-            PlayThread(listBoxMusic.Items.index);
+            PlayThread(listSongs[index]);
         }
     }
 }
