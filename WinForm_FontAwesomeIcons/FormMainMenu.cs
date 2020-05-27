@@ -258,5 +258,11 @@ namespace WinForm_FontAwesomeIcons
                 formBackgroud.Dispose();
             }
         }
+
+        private void iconButton1_Click(object sender, EventArgs e)
+        {
+            ActiveButton(sender, RGBcolors.color1);
+            OpenChildForm(new AboutBox1());
+        }
     }
 }

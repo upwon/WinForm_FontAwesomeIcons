@@ -25,7 +25,7 @@ namespace WinForm_FontAwesomeIcons
         {
             
         //    Cef.Initialize(new CefSettings());
-            browser = new ChromiumWebBrowser("https://upwon.github.io/");
+            browser = new ChromiumWebBrowser("https://www.lifeee.top");
             this.Controls.Add(browser);
             browser.Dock = DockStyle.Fill;
             browser.IsBrowserInitializedChanged += OnIsBrowserInitializedChanged;
